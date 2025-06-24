@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+
+.avatar {
+  width: 25%;
+  margin-left: 7rem;
+  margin-top: 7rem;
+  text-align: right;
+}
+
+img {
+  width: 22rem;
+  height: 22rem;
+  border-radius: 50%;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 7rem;
+}
+
+.links {
+  margin: 10rem auto;
+  column-gap: 0px;
+}
+
+
+h1 {
+  font-size: 7rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  color: var(--dark-blue);
+}

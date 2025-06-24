@@ -18,6 +18,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Lora", "Times New Roman", "serif";
 }
 
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
 /*set color scheme*/
 :root {
   --dark-red: #780000;
@@ -25,4 +32,26 @@ h1, h2, h3, h4, h5, h6 {
   --white: #FDF0D5;
   --dark-blue: #003049;
   --light-blue: #669BBC;
+}
+
+/*Imrpove media defaults*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+
+/*link styling*/
+a {
+  text-decoration: none;
+  color: var(--dark-blue);
+}
+/*pseudo-class link*/
+a:hover {
+  color: var(--dark-red);
+  cursor: pointer;
+}
+
+a:visited {
+  color: none;
 }
