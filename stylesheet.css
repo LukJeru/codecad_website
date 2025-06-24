@@ -9,8 +9,20 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: "Manrope", "Times New Roman", "sans-serif";
+  background-color: var(--white);
+  color: var(--dark-blue)
 }
 
+/*Add Lora as heading font*/
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lora";
+  font-family: "Lora", "Times New Roman", "serif";
+}
+
+/*set color scheme*/
+:root {
+  --dark-red: #780000;
+  --light-red: #C1121F;
+  --white: #FDF0D5;
+  --dark-blue: #003049;
+  --light-blue: #669BBC;
 }
