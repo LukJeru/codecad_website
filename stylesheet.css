@@ -59,3 +59,22 @@ a:hover {
 a:visited {
   color: none;
 }
+
+nav {
+  width: 24rem;
+  float: right;
+  position: relative;
+  bottom: 3rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a:hover {
+  color: var(--light-red);
+}
