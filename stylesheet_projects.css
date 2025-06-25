@@ -1,0 +1,21 @@
+.icon{
+  width: 5rem;
+  height: 5rem;
+}
+
+.icons1, .icons2{
+  display:flex;
+  gap: 2rem;
+}
+
+.icons1 .icon {
+  filter: invert(56%) sepia(11%) saturate(1371%) hue-rotate(160deg) brightness(100%) contrast(91%);
+}
+
+.icons2 .icon {
+  filter: invert(10%) sepia(74%) saturate(5781%) hue-rotate(349deg) brightness(108%) contrast(95%);;
+}
+
+.container {
+  margin: 0 2rem;
+}
