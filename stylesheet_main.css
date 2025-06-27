@@ -27,12 +27,12 @@ img {
   position: relative;
 }
 
-.second {
+#second {
   position: relative;
   bottom: 6rem;
 }
 
-.third {
+#third {
   position: relative;
   bottom: 12rem;
 }
