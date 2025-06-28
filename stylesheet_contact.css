@@ -4,3 +4,48 @@ div {
   display: flex;
   flex-direction: column;
 }
+
+
+@media screen and (max-width: 1000px) {
+  .container {
+    align-items: center;
+  }
+
+  header {
+    width: 100%;
+    position: relative;
+    top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 2rem;
+  }
+
+
+  div {
+    position: relative;
+    bottom: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  section {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    width: 100%;
+  }
+}
