@@ -19,3 +19,8 @@
 .container {
   margin: 0 2rem;
 }
+
+header {
+  position: relative;
+  bottom: 1.35rem;
+}
